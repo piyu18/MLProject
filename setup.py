@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 from typing import List
 
-HYPHEN_E_DOT = '-e .'
+HYPHEN_E_DOT = '-e .' 
 def get_requirements(file_path:str)->List[str]:
     ''' Return requirements list '''
     requirements = []
@@ -17,6 +17,7 @@ def get_requirements(file_path:str)->List[str]:
 setup(
     name = 'mlproject',
     version = '0.0.1',
+    description='Ml project pipeline',
     author = 'Priya',
     author_email = 'priya1803singh@gmail.com',
     packages = find_packages(),
